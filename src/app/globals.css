@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@source "../**/*.{js,ts,jsx,tsx,mdx}";
+@import "@heroui/styles";
+
+@theme {
+  --color-westeraam-blue: #1e3a8a;
+  --color-westeraam-orange: #f97316;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  --accent: var(--color-westeraam-orange);
+  --accent-foreground: #ffffff;
+  --accent-hover: #ea580c;
+  --focus: var(--color-westeraam-blue);
+}
+
+body {
+  @apply bg-white text-gray-900 antialiased;
+}
