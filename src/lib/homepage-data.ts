@@ -6,7 +6,7 @@ export const heroImage =
 export const teamPhoto =
   "https://rijschoolwesteraam.nl/wp-content/uploads/2021/04/rijschoolwesteraam-scaled.jpg";
 
-export const cbrStatsUrl = "https://www.rijswijs.nl/rijschoolgegevens";
+export const cbrStatsUrl = "https://www.cbr.nl/nl/rijschoolzoeker";
 
 export const homepageUsps = [
   {
